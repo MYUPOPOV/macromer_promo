@@ -5,8 +5,6 @@ module.exports = {
 
 	entry: {
 		main: './index.js',
-		adminIndex: './adminIndex.js',
-		adminTable: './adminTable.js',
 	},
 	output: {
 		filename: './js/[name].js',

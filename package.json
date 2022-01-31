@@ -1,7 +1,6 @@
 {
   "name": "finalproject",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode=production",
@@ -12,11 +11,21 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^5.66.0",
-    "webpack-cli": "^4.9.1",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.7.3"
   },
   "dependencies": {
     "swiper": "^7.4.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MYUPOPOV/macromer_promo.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/MYUPOPOV/macromer_promo/issues"
+  },
+  "homepage": "https://github.com/MYUPOPOV/macromer_promo#readme",
+  "description": ""
 }
