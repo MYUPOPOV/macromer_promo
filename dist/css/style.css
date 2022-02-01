@@ -1,0 +1,77 @@
+html {
+	font-size: 20px;
+	font-family: Roboto, sans-serif;
+}
+
+.header {
+	/* height: 40px; */
+	background-color: #1b60a4;
+	color: white;
+}
+.icon {
+	margin-left: auto;
+	margin-top: 10px;
+}
+.icon-image {
+	height: 80%;
+}
+.menu {
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.burger-menu-div {
+	margin-left: auto;
+}
+.burger-menu {
+	height: 70%;
+	margin-top: 10px;
+	margin-right: 50px;
+}
+
+.main-text-30-years {
+	font-size: 30px;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+.main {
+	/* display: block; */
+}
+
+.slider {
+	margin-top: 30px;
+}
+
+.employee {
+	display: flex;
+}
+.employee-picture {
+	height: 300px;
+	margin: 0 auto;
+}
+.industry {
+	/* width: 80%; */
+	margin: 0 auto;
+	text-align: center;
+}
+
+.industry-picture {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+
+	/* position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 300px;
+	height: 300px;
+	object-fit: cover; */
+}
+
+.text-company {
+	width: 80%;
+	margin: 0 auto;
+}
