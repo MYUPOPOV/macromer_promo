@@ -4,9 +4,14 @@ html {
 }
 
 .header {
-	/* height: 40px; */
 	background-color: #1b60a4;
 	color: white;
+}
+
+.header-menu {
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
 }
 .icon {
 	margin-left: auto;
@@ -14,11 +19,6 @@ html {
 }
 .icon-image {
 	height: 80%;
-}
-.menu {
-	display: flex;
-	width: 80%;
-	margin: 0 auto;
 }
 
 .burger-menu-div {
@@ -30,29 +30,49 @@ html {
 	margin-right: 50px;
 }
 
-.main-text-30-years {
-	font-size: 30px;
+.main-text-30-years-left {
+	font-size: 1.2rem;
 	width: 80%;
 	margin: 0 auto;
-	text-align: center;
 }
-.main {
-	/* display: block; */
+
+.main-text-30-years-right {
+	font-size: 1.2rem;
+	margin: 0 auto;
+}
+
+.caption-text {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 70px;
+	margin-bottom: 70px;
 }
 
 .slider {
 	margin-top: 30px;
-}
-
-.employee {
-	display: flex;
-}
-.employee-picture {
-	height: 300px;
+	width: 80%;
 	margin: 0 auto;
 }
+
+.product-and-employee {
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.product-text {
+	font-size: 1.2rem;
+	margin-right: 50px;
+	line-height: 1.5;
+}
+
+.employee-picture {
+	height: 350px;
+	margin-left: auto;
+	margin-right: 100px;
+}
 .industry {
-	/* width: 80%; */
+	width: 80%;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -61,15 +81,28 @@ html {
 	width: 80%;
 	margin: 0 auto;
 	text-align: center;
+}
 
-	/* position: absolute;
+.employee-text {
+	height: 250px;
+	width: 300px;
+	font-size: 0.8rem;
+	text-align: right;
+	width: 40%;
+	margin: 0 auto;
+	color: white;
+	background: #0078c9; /* Цвет фона */
+	padding: 5px; /* Поля вокруг текста */
+	opacity: 0.9; /* Полупрозрачный фон */
+}
+
+/* position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 300px;
 	height: 300px;
 	object-fit: cover; */
-}
 
 .text-company {
 	width: 80%;
