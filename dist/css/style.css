@@ -1,6 +1,21 @@
+@font-face {
+	font-family: 'Montserrat-Medium';
+	src: url('../fonts/Montserrat-Medium.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+svg {
+	width: 60%;
+	height: 20%;
+}
+svg rect {
+	fill: #ff0000;
+}
+
 html {
 	font-size: 20px;
-	font-family: Roboto, sans-serif;
+	font-family: Montserrat-Medium;
 }
 
 .header {
@@ -14,97 +29,125 @@ html {
 	margin: 0 auto;
 }
 .icon {
-	margin-left: auto;
+	margin-left: 10px;
 	margin-top: 10px;
 }
 .icon-image {
 	height: 80%;
 }
 
-.burger-menu-div {
-	margin-left: auto;
-}
-.burger-menu {
-	height: 70%;
-	margin-top: 10px;
-	margin-right: 50px;
-}
-
 .main-text-30-years-left {
 	font-size: 1.2rem;
-	width: 80%;
-	margin: 0 auto;
+	margin-left: 15px;
+	/* width: 80%; */
+	/* margin: 0 auto; */
+	margin-top: 20px;
 }
 
 .main-text-30-years-right {
 	font-size: 1.2rem;
-	margin: 0 auto;
+	/* margin: 0 auto; */
+}
+
+.burger-menu-div {
+	margin-left: auto;
+}
+.burger-menu {
+	height: 65%;
+	margin-top: 10px;
+	margin-right: 50px;
 }
 
 .caption-text {
+	font-size: 1.6rem;
+	font-weight: bold;
 	text-align: center;
 	margin: 0 auto;
 	margin-top: 70px;
 	margin-bottom: 70px;
+	color: #1b60a4;
 }
 
-.slider {
+.slide {
 	margin-top: 30px;
 	width: 80%;
 	margin: 0 auto;
 }
 
-.product-and-employee {
-	display: flex;
-	width: 80%;
-	margin: 0 auto;
+/* Clear floats after the columns */
+.row:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.column1 {
+	float: left;
+	width: 60%;
+	margin-top: 20px;
 }
 
 .product-text {
-	font-size: 1.2rem;
-	margin-right: 50px;
-	line-height: 1.5;
+	margin: 70px;
+	padding: 20px;
+	background: rgb(27, 96, 164, 0.5);
+	border-radius: 10px;
 }
 
-.employee-picture {
-	height: 350px;
-	margin-left: auto;
-	margin-right: 100px;
+.product-text-name {
+	/* color: #0c2946; */
+	color: white;
+	text-decoration: underline;
 }
-.industry {
-	width: 80%;
-	margin: 0 auto;
-	text-align: center;
+.product-text-body {
+	color: white;
+	text-align: justify;
+	line-height: 1.2;
 }
 
-.industry-picture {
-	width: 80%;
-	margin: 0 auto;
-	text-align: center;
+.column2 {
+	float: left;
+	width: 30%;
+	padding: 50px;
+	margin-top: 20px;
+}
+
+.employee {
+	float: left;
+	float: right;
+	/* margin-left: 200px; */
+}
+
+.employee-picture-img {
+	width: 300px;
 }
 
 .employee-text {
-	height: 250px;
-	width: 300px;
-	font-size: 0.8rem;
-	text-align: right;
-	width: 40%;
-	margin: 0 auto;
+	width: 280px;
+	background: rgb(27, 96, 164, 0.5);
 	color: white;
-	background: #0078c9; /* Цвет фона */
-	padding: 5px; /* Поля вокруг текста */
-	opacity: 0.9; /* Полупрозрачный фон */
+	padding: 10px;
+	padding-top: 0px;
+	font-size: 0.8rem;
+	margin-top: -5px;
+	border-radius: 5px;
 }
 
-/* position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 300px;
-	height: 300px;
-	object-fit: cover; */
+.employee-text-position {
+	font-size: 0.9rem;
+	padding-top: 10px;
+}
+
+.employee-text-name {
+	font-size: 1.3rem;
+}
+
+.employee-text-about {
+	font-size: 0.7rem;
+}
 
 .text-company {
 	width: 80%;
 	margin: 0 auto;
+	margin-top: 100px;
 }

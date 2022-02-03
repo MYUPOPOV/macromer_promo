@@ -7,6 +7,7 @@
   <title>«Макромер» — 30 лет на рынке</title>
   <link rel="shortcut icon" href="./images/favicon.ico">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
   <script src="./js/main.js"></script>
 </head>
 <body>
@@ -18,13 +19,14 @@
         <div class="main-text-30-years-left">
             ООО «НПП «МАКРОМЕР» им. В.С. Лебедева»
         </div>
-        <div class="main-text-30-years-right">
+        <!-- <div class="main-text-30-years-right">
            30 лет на рынке химической продукции 
-        </div>
+        </div> -->
 
 
         <div class="burger-menu-div">
-          <img  class="burger-menu" src="./images/Hamburger_icon_white.svg">
+          <!-- <img  class="burger-menu" src="./images/Hamburger_icon_white.svg"> -->
+          <svg class="burger-menu" height="32px" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z" style="fill:#fff;"/></svg>
         </div>
   </div>
   </header>
@@ -32,38 +34,110 @@
   
 <!-- Заголовок -->
 <div class="caption-text">
-<h1>Разрабатываем и производим полимерную продукцию с 1990 года</h1>
+Разрабатываем и производим полимерную продукцию с 1990 года
 </div>
 
 <!-- Слайдер -->
-  <div class="slider" style="background-image: url('./images/industry/shutterstock_1517813393.jpg')">
-         <div class="product-and-employee">
-            <div class="product-text">
+<div class="swiper">
+  <div class="swiper-wrapper">
+
+<!-- Карточка слайдера -->
+<div class="swiper-slide">
+  <div class="slide" style="background-image: url('./images/industry/shutterstock_1517813393.jpg')">
+    <div class="row">
+        <div class="column1">
+          <div class="product-text">
+            <div class="product-text-name">
                <h2>Лапролы ИРБ ®</h2>
-               <p> Однокомпонентные и двухкомпонентные гидроактивные инъекционные материалы низкой вязкости на основе полиуретановой смолы. Применяются для долговременной герметизации подвижных и статичных трещин и швов бетонирования, заполнения пустот в строительных конструкциях, выполненных из различных материалов (кирпич, камень и т.п.). </p>
             </div>
-            <img class="employee-picture" src="./images/employee/Криушенко.png">
+            <div class="product-text-body">
+               <p> Однокомпонентные и двухкомпонентные гидроактивные инъекционные материалы низкой вязкости на основе полиуретановой смолы.  </p>
+               <p> Применяются для долговременной герметизации подвижных и статичных трещин и швов бетонирования, заполнения пустот в строительных конструкциях, выполненных из различных материалов (кирпич, камень и т.п.). </p>
+            </div>
+          </div>
        </div>
-     
-    <div class="industry" >
-           <!-- <img class="industry-picture" src="./images/industry/shutterstock_1517813393.jpg"> -->
+       <!-- / product-text -->
+
+       <div class='column2'>
+        <div class='employee'>
+          <div class="employee-picture">
+              <img class="employee-picture-img" src="./images/employee/Криушенко.png">
+          </div>  
            <div class="employee-text">
-            <p>Сотрудник НТЦ</p>
-            <p>Криушенко С.С.</p>
-            <p>   </p>
-            <p>Научный сотрудник лаборатории композиционных материалов и специальных продуктов, руководитель группы         «Полиуретановые   материалы».</p>
-            <p>ФГБ ОУВПО «Владимирский государственный университет имени Александра Григорьевича и Николая Григорьевича         Столетовых»,  2011 г., стаж 8лет.</p>
+            <div class="employee-text-position">
+              Сотрудник НТЦ
+            </div>
+            <div class="employee-text-name">
+              Криушенко С.С.
+            </div>
+            <div class="employee-text-about">
+              <p>Научный сотрудник лаборатории композиционных материалов и специальных продуктов, руководитель группы «Полиуретановые   материалы».</p>
+              <p>ФГБОУ ВПО «Владимирский государственный университет имени Александра Григорьевича и Николая Григорьевича Столетовых», 2011 г., стаж 8 лет.</p>
+              <p>Сертификаты участника конференций «Аквастоп», «Клеи и герметики».</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      <!-- / column employe -->
+    </div>
+  </div>
+  </div>
+<!-- / Карточка слайдера -->
+
+<!-- Карточка слайдера -->
+<div class="swiper-slide">
+<div class="slide" style="background-image: url('./images/industry/shutterstock_1101013589.jpg')">
+  <div class="row">
+      <div class="column1">
+        <div class="product-text">
+          <div class="product-text-name">
+             <h2>Лапролы ИРБ ®</h2>
+          </div>
+          <div class="product-text-body">
+             <p> Однокомпонентные и двухкомпонентные гидроактивные инъекционные материалы низкой вязкости на основе полиуретановой смолы.  </p>
+             <p> Применяются для долговременной герметизации подвижных и статичных трещин и швов бетонирования, заполнения пустот в строительных конструкциях, выполненных из различных материалов (кирпич, камень и т.п.). </p>
+          </div>
+        </div>
+     </div>
+     <!-- / product-text -->
+
+     <div class='column2'>
+      <div class='employee'>
+        <div class="employee-picture">
+            <img class="employee-picture-img" src="./images/employee/Криушенко.png">
+        </div>  
+         <div class="employee-text">
+          <div class="employee-text-position">
+            Сотрудник НТЦ
+          </div>
+          <div class="employee-text-name">
+            Криушенко С.С.
+          </div>
+          <div class="employee-text-about">
+            <p>Научный сотрудник лаборатории композиционных материалов и специальных продуктов, руководитель группы «Полиуретановые   материалы».</p>
+            <p>ФГБОУ ВПО «Владимирский государственный университет имени Александра Григорьевича и Николая Григорьевича Столетовых», 2011 г., стаж 8 лет.</p>
             <p>Сертификаты участника конференций «Аквастоп», «Клеи и герметики».</p>
           </div>
-         </div>
-       
-       
+        </div>
+      </div>
+      </div>
+    <!-- / column employe -->
+  </div>
+</div>
+</div>
+<!-- / Карточка слайдера -->
+
 
   </div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-pagination"></div>
+</div>
+<!-- class="swiper" "swiper-wrapper" -->
 
 <!-- ОПисание компании -->
     <div class="text-company">
-      <p>      B 2020 году «Макромер» отмечает свое 30-летие. По-прежнему главным приоритетом предприятостаются люди. Хотелось бы поздравить наших сотрудников, некоторые из которых работают на предприятиимомента его основания.</p>
+      <p>      B 2020 году «Макромер» отмечает свое 30-летие. По-прежнему главным приоритетом предприя остаются люди. Хотелось бы поздравить наших сотрудников, некоторые из которых работают на предприи с момента его основания.</p>
       <p>Именно высококвалифицированные специалисты позволяют нам производить качественную высокотехнологичную продукцию и развиваться с каждым годом.</p>
       <p>Мы благодарим наших партнеров за плодотворное сотрудничество.</p>
       <p>И будем и дальше с честью нести гордое звание «Макромер» - одного из лидеров российской химической отрасли.</p>
