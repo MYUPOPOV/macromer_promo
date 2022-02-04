@@ -91,24 +91,21 @@ html {
 
 .slide {
 	background-position: center;
-	height: 705px;
+	height: 635px;
 }
 
-/* Clear floats after the columns */
-.row:after {
-	content: '';
-	display: table;
-	clear: both;
+.row {
+	display: flex;
+	justify-content: space-between;
 }
 
 .column1 {
-	float: left;
-	width: 60%;
-	margin-top: 20px;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 .product-text {
-	margin: 70px;
 	padding: 20px;
 	background: rgb(27, 96, 164, 0.7);
 	border-radius: 10px;
@@ -126,16 +123,9 @@ html {
 }
 
 .column2 {
-	float: left;
-	width: 30%;
-	padding: 50px;
-	margin-top: 20px;
-}
-
-.employee {
-	float: left;
-	float: right;
-	/* margin-left: 200px; */
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 .employee-picture-img {
