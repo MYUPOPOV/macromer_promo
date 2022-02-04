@@ -8,7 +8,8 @@
   <link rel="shortcut icon" href="./images/favicon.ico">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
-  <script src="./js/main.js"></script>
+  <script src="./js/main.js" defer></script>
+
 </head>
 <body>
   <header class="header">
@@ -25,8 +26,9 @@
 
 
         <div class="burger-menu-div">
-          <!-- <img  class="burger-menu" src="./images/Hamburger_icon_white.svg"> -->
+          <!-- Иконку бы либо сжать либо заменить на более тонкую -->
           <svg class="burger-menu" height="32px" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z" style="fill:#fff;"/></svg>
+
         </div>
   </div>
   </header>
@@ -38,30 +40,73 @@
 </div>
 
 <!-- Слайдер -->
-<div class="swiper">
+<div class="swiper slider-container">
   <div class="swiper-wrapper">
 
-<!-- Карточка слайдера -->
+
+<!-- Карточка слайдера 001 Акулиничева -->
 <div class="swiper-slide">
-  <div class="slide" style="background-image: url('./images/industry/shutterstock_1517813393.jpg')">
+  <div class="slide" style="background-image: url('./images/industry/shutterstock_1144232546.jpg')">
     <div class="row">
         <div class="column1">
           <div class="product-text">
             <div class="product-text-name">
-               <h2>Лапролы ИРБ ®</h2>
+               <h2>ДМС-полиэфиры ®</h2>
             </div>
             <div class="product-text-body">
-               <p> Однокомпонентные и двухкомпонентные гидроактивные инъекционные материалы низкой вязкости на основе полиуретановой смолы.  </p>
-               <p> Применяются для долговременной герметизации подвижных и статичных трещин и швов бетонирования, заполнения пустот в строительных конструкциях, выполненных из различных материалов (кирпич, камень и т.п.). </p>
+               <p> Полиолы с ультра-низкой дефектностью по функциональным гидроксильным группам и широким диапазоном молекулярной массы. </p>
+               <p> Применяются в качестве полиольного сырья для ПУ и в качестве технических жидкостей. </p>
             </div>
           </div>
        </div>
-       <!-- / product-text -->
-
        <div class='column2'>
         <div class='employee'>
           <div class="employee-picture">
-              <img class="employee-picture-img" src="./images/employee/Криушенко.png">
+              <img class="employee-picture-img" src="./images/employee/Akulinicheva.png">
+          </div>  
+           <div class="employee-text">
+            <div class="employee-text-position">
+              Сотрудник НТЦ
+            </div>
+            <div class="employee-text-name">
+              Акулиничева А.А.
+            </div>
+            <div class="employee-text-about">
+              <p>Научный сотрудник лаборатории функционализированных простых полиэфиров.</p>
+              <p>ФГБ ОУВПО «Владимирский государственный университет имени Александра Григорьевича и Николая Григорьевича Столетовых», 2014 г., стаж б лет.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+  </div>
+  </div>
+<!-- / Карточка слайдера 001 Акулиничева -->
+
+<!-- Карточка слайдера 002 Короткова -->
+<div class="swiper-slide">
+  <div class="slide" style="background-image: url('./images/industry/shutterstock_1659774136.jpg')">
+    <div class="row">
+        <div class="column1">
+          <div class="product-text">
+            <div class="product-text-name">
+               <h2>Акролаты ®</h2>
+            </div>
+            <div class="product-text-body">
+               <p> УФ-отверждаемые композиции для изготовления много¬слойного безопасного стекла для остекления зданий и сооружений, наземного транспорта, изготовления ударо- и пулестойкого стекла. </p>
+            </div>
+            <div class="product-text-name">
+              <h2>Акролы ®</h2>
+           </div>
+           <div class="product-text-body">
+              <p> Применяются в качестве пленкообразователей в составе радикально полимеризующихся, в том числе фотоотверждаемых, композиций различного назначения.</p>
+           </div>
+          </div>
+       </div>
+       <div class='column2'>
+        <div class='employee'>
+          <div class="employee-picture">
+              <img class="employee-picture-img" src="./images/employee/Korotkova.png">
           </div>  
            <div class="employee-text">
             <div class="employee-text-position">
@@ -78,13 +123,172 @@
           </div>
         </div>
         </div>
-      <!-- / column employe -->
     </div>
   </div>
   </div>
-<!-- / Карточка слайдера -->
+<!-- / Карточка слайдера 002 Короткова -->
 
-<!-- Карточка слайдера -->
+<!-- Карточка слайдера 003 Коноплева -->
+<div class="swiper-slide">
+  <div class="slide" style="background-image: url('./images/industry/shutterstock_1415326388.jpg')">
+    <div class="row">
+        <div class="column1">
+          <div class="product-text">
+            <div class="product-text-name">
+               <h2>Лапролы ИРБ ®</h2>
+            </div>
+            <div class="product-text-body">
+               <p> Однокомпонентные и двухкомпонентные гидроактивные инъекционные материалы низкой вязкости на основе полиуретановой смолы.  </p>
+               <p> Применяются для долговременной герметизации подвижных и статичных трещин и швов бетонирования, заполнения пустот в строительных конструкциях, выполненных из различных материалов (кирпич, камень и т.п.). </p>
+            </div>
+          </div>
+       </div>
+       <div class='column2'>
+        <div class='employee'>
+          <div class="employee-picture">
+              <img class="employee-picture-img" src="./images/employee/Konopleva.png">
+          </div>  
+           <div class="employee-text">
+            <div class="employee-text-position">
+              Сотрудник НТЦ
+            </div>
+            <div class="employee-text-name">
+              Криушенко С.С.
+            </div>
+            <div class="employee-text-about">
+              <p>Научный сотрудник лаборатории композиционных материалов и специальных продуктов, руководитель группы «Полиуретановые   материалы».</p>
+              <p>ФГБОУ ВПО «Владимирский государственный университет имени Александра Григорьевича и Николая Григорьевича Столетовых», 2011 г., стаж 8 лет.</p>
+              <p>Сертификаты участника конференций «Аквастоп», «Клеи и герметики».</p>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+  </div>
+  </div>
+<!-- / Карточка слайдера 003 Коноплева -->
+
+<!-- Карточка слайдера 004 Антипова -->
+<div class="swiper-slide">
+  <div class="slide" style="background-image: url('./images/industry/shutterstock_1788945683.jpg')">
+    <div class="row">
+        <div class="column1">
+          <div class="product-text">
+            <div class="product-text-name">
+               <h2>Лапролы ИРБ ®</h2>
+            </div>
+            <div class="product-text-body">
+               <p> Однокомпонентные и двухкомпонентные гидроактивные инъекционные материалы низкой вязкости на основе полиуретановой смолы.  </p>
+               <p> Применяются для долговременной герметизации подвижных и статичных трещин и швов бетонирования, заполнения пустот в строительных конструкциях, выполненных из различных материалов (кирпич, камень и т.п.). </p>
+            </div>
+          </div>
+       </div>
+       <div class='column2'>
+        <div class='employee'>
+          <div class="employee-picture">
+              <img class="employee-picture-img" src="./images/employee/Antipova.png">
+          </div>  
+           <div class="employee-text">
+            <div class="employee-text-position">
+              Сотрудник НТЦ
+            </div>
+            <div class="employee-text-name">
+              Криушенко С.С.
+            </div>
+            <div class="employee-text-about">
+              <p>Научный сотрудник лаборатории композиционных материалов и специальных продуктов, руководитель группы «Полиуретановые   материалы».</p>
+              <p>ФГБОУ ВПО «Владимирский государственный университет имени Александра Григорьевича и Николая Григорьевича Столетовых», 2011 г., стаж 8 лет.</p>
+              <p>Сертификаты участника конференций «Аквастоп», «Клеи и герметики».</p>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+  </div>
+  </div>
+<!-- / Карточка слайдера 004 Антипова -->
+
+<!-- Карточка слайдера 005 Криушенко -->
+<div class="swiper-slide">
+  <div class="slide" style="background-image: url('./images/industry/shutterstock_1517813393.jpg')">
+    <div class="row">
+        <div class="column1">
+          <div class="product-text">
+            <div class="product-text-name">
+               <h2>Лапролы ИРБ ®</h2>
+            </div>
+            <div class="product-text-body">
+               <p> Однокомпонентные и двухкомпонентные гидроактивные инъекционные материалы низкой вязкости на основе полиуретановой смолы.  </p>
+               <p> Применяются для долговременной герметизации подвижных и статичных трещин и швов бетонирования, заполнения пустот в строительных конструкциях, выполненных из различных материалов (кирпич, камень и т.п.). </p>
+            </div>
+          </div>
+       </div>
+       <div class='column2'>
+        <div class='employee'>
+          <div class="employee-picture">
+              <img class="employee-picture-img" src="./images/employee/Kriushenko.png">
+          </div>  
+           <div class="employee-text">
+            <div class="employee-text-position">
+              Сотрудник НТЦ
+            </div>
+            <div class="employee-text-name">
+              Криушенко С.С.
+            </div>
+            <div class="employee-text-about">
+              <p>Научный сотрудник лаборатории композиционных материалов и специальных продуктов, руководитель группы «Полиуретановые   материалы».</p>
+              <p>ФГБОУ ВПО «Владимирский государственный университет имени Александра Григорьевича и Николая Григорьевича Столетовых», 2011 г., стаж 8 лет.</p>
+              <p>Сертификаты участника конференций «Аквастоп», «Клеи и герметики».</p>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+  </div>
+  </div>
+<!-- / Карточка слайдера 005 Криушенко -->
+
+<!-- Карточка слайдера 006 Тарасов -->
+<div class="swiper-slide">
+  <div class="slide" style="background-image: url('./images/industry/shutterstock_732255448.jpg')">
+    <div class="row">
+        <div class="column1">
+          <div class="product-text">
+            <div class="product-text-name">
+               <h2>Лапролы ИРБ ®</h2>
+            </div>
+            <div class="product-text-body">
+               <p> Однокомпонентные и двухкомпонентные гидроактивные инъекционные материалы низкой вязкости на основе полиуретановой смолы.  </p>
+               <p> Применяются для долговременной герметизации подвижных и статичных трещин и швов бетонирования, заполнения пустот в строительных конструкциях, выполненных из различных материалов (кирпич, камень и т.п.). </p>
+            </div>
+          </div>
+       </div>
+       <div class='column2'>
+        <div class='employee'>
+          <div class="employee-picture">
+              <img class="employee-picture-img" src="./images/employee/Tarasov.png">
+          </div>  
+           <div class="employee-text">
+            <div class="employee-text-position">
+              Сотрудник НТЦ
+            </div>
+            <div class="employee-text-name">
+              Криушенко С.С.
+            </div>
+            <div class="employee-text-about">
+              <p>Научный сотрудник лаборатории композиционных материалов и специальных продуктов, руководитель группы «Полиуретановые   материалы».</p>
+              <p>ФГБОУ ВПО «Владимирский государственный университет имени Александра Григорьевича и Николая Григорьевича Столетовых», 2011 г., стаж 8 лет.</p>
+              <p>Сертификаты участника конференций «Аквастоп», «Клеи и герметики».</p>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+  </div>
+  </div>
+<!-- / Карточка слайдера 006 Тарасов -->
+
+<!-- Карточка слайдера 007 Спиридонова -->
 <div class="swiper-slide">
 <div class="slide" style="background-image: url('./images/industry/shutterstock_1101013589.jpg')">
   <div class="row">
@@ -99,12 +303,10 @@
           </div>
         </div>
      </div>
-     <!-- / product-text -->
-
      <div class='column2'>
       <div class='employee'>
         <div class="employee-picture">
-            <img class="employee-picture-img" src="./images/employee/Криушенко.png">
+            <img class="employee-picture-img" src="./images/employee/Spiridonova.png">
         </div>  
          <div class="employee-text">
           <div class="employee-text-position">
@@ -116,20 +318,137 @@
           <div class="employee-text-about">
             <p>Научный сотрудник лаборатории композиционных материалов и специальных продуктов, руководитель группы «Полиуретановые   материалы».</p>
             <p>ФГБОУ ВПО «Владимирский государственный университет имени Александра Григорьевича и Николая Григорьевича Столетовых», 2011 г., стаж 8 лет.</p>
-            <p>Сертификаты участника конференций «Аквастоп», «Клеи и герметики».</p>
           </div>
         </div>
       </div>
       </div>
-    <!-- / column employe -->
   </div>
 </div>
 </div>
-<!-- / Карточка слайдера -->
+<!-- / Карточка слайдера 007 Спиридонова -->
 
+<!-- Карточка слайдера 008 Кротова -->
+<div class="swiper-slide">
+  <div class="slide" style="background-image: url('./images/industry/shutterstock_1350281003.jpg')">
+    <div class="row">
+        <div class="column1">
+          <div class="product-text">
+            <div class="product-text-name">
+               <h2>Лапролы ИРБ ®</h2>
+            </div>
+            <div class="product-text-body">
+               <p> Однокомпонентные и двухкомпонентные гидроактивные инъекционные материалы низкой вязкости на основе полиуретановой смолы.  </p>
+               <p> Применяются для долговременной герметизации подвижных и статичных трещин и швов бетонирования, заполнения пустот в строительных конструкциях, выполненных из различных материалов (кирпич, камень и т.п.). </p>
+            </div>
+          </div>
+       </div>
+       <div class='column2'>
+        <div class='employee'>
+          <div class="employee-picture">
+              <img class="employee-picture-img" src="./images/employee/Krotova.png">
+          </div>  
+           <div class="employee-text">
+            <div class="employee-text-position">
+              Сотрудник НТЦ
+            </div>
+            <div class="employee-text-name">
+              Криушенко С.С.
+            </div>
+            <div class="employee-text-about">
+              <p>Научный сотрудник лаборатории композиционных материалов и специальных продуктов, руководитель группы «Полиуретановые   материалы».</p>
+              <p>ФГБОУ ВПО «Владимирский государственный университет имени Александра Григорьевича и Николая Григорьевича Столетовых», 2011 г., стаж 8 лет.</p>
+              <p>Сертификаты участника конференций «Аквастоп», «Клеи и герметики».</p>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+  </div>
+  </div>
+<!-- / Карточка слайдера 008 Кротова -->
+
+<!-- Карточка слайдера 009 Сорокина -->
+<div class="swiper-slide">
+  <div class="slide" style="background-image: url('./images/industry/shutterstock_1419029540.jpg')">
+    <div class="row">
+        <div class="column1">
+          <div class="product-text">
+            <div class="product-text-name">
+               <h2>Лапролы ИРБ ®</h2>
+            </div>
+            <div class="product-text-body">
+               <p> Однокомпонентные и двухкомпонентные гидроактивные инъекционные материалы низкой вязкости на основе полиуретановой смолы.  </p>
+               <p> Применяются для долговременной герметизации подвижных и статичных трещин и швов бетонирования, заполнения пустот в строительных конструкциях, выполненных из различных материалов (кирпич, камень и т.п.). </p>
+            </div>
+          </div>
+       </div>
+       <div class='column2'>
+        <div class='employee'>
+          <div class="employee-picture">
+              <img class="employee-picture-img" src="./images/employee/Sorokina.png">
+          </div>  
+           <div class="employee-text">
+            <div class="employee-text-position">
+              Сотрудник НТЦ
+            </div>
+            <div class="employee-text-name">
+              Криушенко С.С.
+            </div>
+            <div class="employee-text-about">
+              <p>Научный сотрудник лаборатории композиционных материалов и специальных продуктов, руководитель группы «Полиуретановые   материалы».</p>
+              <p>ФГБОУ ВПО «Владимирский государственный университет имени Александра Григорьевича и Николая Григорьевича Столетовых», 2011 г., стаж 8 лет.</p>
+              <p>Сертификаты участника конференций «Аквастоп», «Клеи и герметики».</p>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+  </div>
+  </div>
+<!-- / Карточка слайдера 009 Сорокина -->
+
+<!-- Карточка слайдера 010 Затолока -->
+<div class="swiper-slide">
+  <div class="slide" style="background-image: url('./images/industry/shutterstock_642220561.jpg')">
+    <div class="row">
+        <div class="column1">
+          <div class="product-text">
+            <div class="product-text-name">
+               <h2>Лапролы ИРБ ®</h2>
+            </div>
+            <div class="product-text-body">
+               <p> Однокомпонентные и двухкомпонентные гидроактивные инъекционные материалы низкой вязкости на основе полиуретановой смолы.  </p>
+               <p> Применяются для долговременной герметизации подвижных и статичных трещин и швов бетонирования, заполнения пустот в строительных конструкциях, выполненных из различных материалов (кирпич, камень и т.п.). </p>
+            </div>
+          </div>
+       </div>
+       <div class='column2'>
+        <div class='employee'>
+          <div class="employee-picture">
+              <img class="employee-picture-img" src="./images/employee/Zotoloka.png">
+          </div>  
+           <div class="employee-text">
+            <div class="employee-text-position">
+              Сотрудник НТЦ
+            </div>
+            <div class="employee-text-name">
+              Криушенко С.С.
+            </div>
+            <div class="employee-text-about">
+              <p>Научный сотрудник лаборатории композиционных материалов и специальных продуктов, руководитель группы «Полиуретановые   материалы».</p>
+              <p>ФГБОУ ВПО «Владимирский государственный университет имени Александра Григорьевича и Николая Григорьевича Столетовых», 2011 г., стаж 8 лет.</p>
+              <p>Сертификаты участника конференций «Аквастоп», «Клеи и герметики».</p>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+  </div>
+  </div>
+<!-- / Карточка слайдера 010 Затолока -->
 
   </div>
-  <div class="swiper-button-next"></div>
+  <div class="swiper-button-next next-button"></div>
   <div class="swiper-button-prev"></div>
   <div class="swiper-pagination"></div>
 </div>

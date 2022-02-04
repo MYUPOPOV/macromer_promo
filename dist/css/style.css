@@ -5,6 +5,20 @@
 	font-weight: normal;
 }
 
+@font-face {
+	font-family: 'Montserrat-Light';
+	src: url('../fonts/Montserrat-Light.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat-Regular';
+	src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
 svg {
 	width: 60%;
 	height: 20%;
@@ -42,6 +56,7 @@ html {
 	/* width: 80%; */
 	/* margin: 0 auto; */
 	margin-top: 20px;
+	letter-spacing: -1px;
 }
 
 .main-text-30-years-right {
@@ -59,19 +74,23 @@ html {
 }
 
 .caption-text {
-	font-size: 1.6rem;
+	font-family: Montserrat-Light;
+	font-size: 1.7rem;
 	font-weight: bold;
 	text-align: center;
 	margin: 0 auto;
 	margin-top: 70px;
 	margin-bottom: 70px;
-	color: #1b60a4;
+	color: rgb(27, 96, 164);
+}
+
+.slider-container {
+	width: 80%;
+	margin: 0 auto;
 }
 
 .slide {
-	margin-top: 30px;
-	width: 80%;
-	margin: 0 auto;
+	background-position: center;
 }
 
 /* Clear floats after the columns */
@@ -90,7 +109,7 @@ html {
 .product-text {
 	margin: 70px;
 	padding: 20px;
-	background: rgb(27, 96, 164, 0.5);
+	background: rgb(27, 96, 164, 0.7);
 	border-radius: 10px;
 }
 
@@ -120,16 +139,17 @@ html {
 
 .employee-picture-img {
 	width: 300px;
+	/* background: rgb(27, 96, 164, 0.5); */
 }
 
 .employee-text {
 	width: 280px;
-	background: rgb(27, 96, 164, 0.5);
+	background: rgb(27, 96, 164, 0.7);
 	color: white;
 	padding: 10px;
 	padding-top: 0px;
 	font-size: 0.8rem;
-	margin-top: -5px;
+	margin-top: -6px;
 	border-radius: 5px;
 }
 
