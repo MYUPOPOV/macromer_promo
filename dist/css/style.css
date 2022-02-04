@@ -91,6 +91,7 @@ html {
 
 .slide {
 	background-position: center;
+	height: 705px;
 }
 
 /* Clear floats after the columns */
