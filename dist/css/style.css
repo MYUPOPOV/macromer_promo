@@ -19,17 +19,10 @@
 	font-weight: normal;
 }
 
-svg {
-	width: 60%;
-	height: 20%;
-}
-svg rect {
-	fill: #ff0000;
-}
-
 html {
 	font-size: 20px;
 	font-family: Montserrat-Medium;
+	color: rgb(24, 84, 144);
 }
 
 .header {
@@ -73,6 +66,11 @@ html {
 	margin-right: 50px;
 }
 
+.main {
+	width: 80%;
+	margin: 0 auto;
+}
+
 .caption-text {
 	font-family: Montserrat-Light;
 	font-size: 1.7rem;
@@ -81,22 +79,22 @@ html {
 	margin: 0 auto;
 	margin-top: 70px;
 	margin-bottom: 70px;
-	color: rgb(27, 96, 164);
 }
 
 .slider-container {
-	width: 80%;
-	margin: 0 auto;
+	/* width: 80%;
+	margin: 0 auto; */
 }
 
 .slide {
 	background-position: center;
-	height: 635px;
+	height: 645px;
 }
 
 .row {
 	display: flex;
 	justify-content: space-between;
+	text-align: center;
 }
 
 .column1 {
@@ -130,7 +128,6 @@ html {
 
 .employee-picture-img {
 	width: 300px;
-	/* background: rgb(27, 96, 164, 0.5); */
 }
 
 .employee-text {
@@ -157,8 +154,54 @@ html {
 	font-size: 0.7rem;
 }
 
-.text-company {
-	width: 80%;
-	margin: 0 auto;
-	margin-top: 100px;
+.about {
+	margin-top: 50px;
+	display: flex;
+	/* width: 80%; */
+	justify-content: center;
+	align-items: center;
+}
+
+.column1-about {
+	margin-left: 50px;
+	margin-right: 50px;
+	align-items: center;
+}
+
+.about-chairman-picture-img {
+	width: 300px;
+	border-radius: 150px;
+	border: solid 7px;
+	border-color: goldenrod;
+	align-items: center;
+}
+
+.about-chairman-text-name {
+	font-size: 1.3rem;
+	color: goldenrod;
+	text-align: center;
+	align-items: center;
+}
+
+.about-chairman-text-position {
+	font-size: 0.9rem;
+	text-align: center;
+}
+
+.column2-about {
+	margin-left: 50px;
+	margin-right: 50px;
+	align-items: center;
+	text-align: center;
+}
+
+.about-text {
+	line-height: 1.5;
+	text-align: justify;
+	align-items: center;
+	text-align: center;
+}
+
+.about-link {
+	text-align: center;
 }
