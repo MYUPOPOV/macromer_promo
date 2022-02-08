@@ -54,8 +54,9 @@ body {
 	margin-left: 15px;
 	/* width: 80%; */
 	/* margin: 0 auto; */
-	margin-top: 20px;
+	margin-top: 25px;
 	letter-spacing: -1px;
+	cursor: pointer;
 }
 
 .main-text-30-years-right {
@@ -70,6 +71,7 @@ body {
 	height: 65%;
 	margin-top: 10px;
 	margin-right: 50px;
+	cursor: pointer;
 }
 
 .main {
@@ -235,6 +237,7 @@ body {
 	border: solid 2px;
 	margin-top: 20px;
 	margin-bottom: 50px;
+	cursor: pointer;
 }
 
 .about-link {
@@ -294,7 +297,7 @@ body {
 	border: solid 2px;
 	margin-top: 20px;
 	padding: 10px;
-	padding-bottom: 100px;
+	padding-bottom: 150px;
 }
 
 .feedback-button {
@@ -316,6 +319,7 @@ body {
 	border: solid 2px;
 	margin-top: 20px;
 	margin-bottom: 70px;
+	cursor: pointer;
 }
 
 .footer {
@@ -336,14 +340,20 @@ body {
 .footer-contacts {
 	display: flex;
 	flex-direction: column;
-	margin-top: 15px;
+	margin-top: 25px;
 	margin-bottom: 15px;
+	cursor: pointer;
 }
 
 .footer-mainLink-a {
 	color: white;
+	text-decoration: none;
 	/* background-color: #ffffff;
 	background-color: #000000; */
+}
+
+.footer-up {
+	cursor: pointer;
 }
 
 .popup {
@@ -415,8 +425,9 @@ body {
 	flex-direction: column;
 }
 
-.movie-popup {
+.map-popup {
 	display: none;
+	flex-direction: column;
 }
 
 .movie-popup-content-iframe {
@@ -429,7 +440,7 @@ body {
 .menu {
 	/* font-size: 0.7rem; */
 	position: fixed;
-	width: 50%;
+	width: 35%;
 	height: 100vh;
 	background-color: rgb(24, 84, 144);
 	opacity: 0.9;
@@ -446,14 +457,14 @@ body {
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	-webkit-transform: translateX(200%);
-	transform: translateX(200%);
+	-webkit-transform: translateX(280%);
+	transform: translateX(280%);
 }
 .active-menu {
 	-webkit-transition: 1s;
 	transition: 1s;
-	-webkit-transform: translateX(100%);
-	transform: translateX(100%);
+	-webkit-transform: translateX(175%);
+	transform: translateX(175%);
 }
 ul {
 	list-style: none;
@@ -462,14 +473,14 @@ ul {
 	line-height: 3;
 }
 li a {
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	color: #fff;
 	text-decoration: none;
 }
 a:hover {
 	text-decoration: none;
 	/* opacity: 1; */
-	color: rgb(8, 27, 46);
+	color: rgb(8, 27, 46, 0.7);
 }
 
 body p {
