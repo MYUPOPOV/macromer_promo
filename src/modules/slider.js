@@ -21,8 +21,6 @@ const slider = () => {
 			clickable: true,
 		},
 	});
-
-	console.log('slider is loaded');
 };
 
 export default slider;

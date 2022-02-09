@@ -21,7 +21,7 @@
             ООО «НПП «МАКРОМЕР» им. В.С. Лебедева»
         </div>
         <div class="burger-menu-div">
-          <svg class="burger-menu" xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 24 24" width="64px" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+          <svg class="burger-menu" xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 24 24" width="64px" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
         </div>
   </div>
   </header>
@@ -482,9 +482,9 @@
       <p>⠀⠀⠀Мы благодарим наших партнеров за плодотворное сотрудничество.</p>
       <p>⠀⠀⠀И будем и дальше с честью нести гордое звание «Макромер» - одного из лидеров российской химической отрасли.</p>
       <div class="about-buttons">
-        <button class="about-button-btn" href="https://macromer.ru/company/o-sozdatele/">О создателе компании</button>
-        <button class="about-button-btn">Научно-технический центр</button>
-        <button class="about-button-btn">Юбилейный фильм</button>
+        <button class="about-button-btn" id="button-founder">О создателе компании</button>
+        <button class="about-button-btn" id="button-ntc">Научно-технический центр</button>
+        <button class="about-button-btn" id="button-movie">Юбилейный фильм</button>
       </div>
 
     </div>
@@ -552,7 +552,7 @@
 
 
   <div class="footer-up">
-    <svg enable-background="new 0 0 32 32"  id="Слой_1" version="1.1" viewBox="0 0 32 32" width="64px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M16.714,11.297c-0.389-0.389-1.039-0.389-1.429,0l-8.999,8.976  c-0.394,0.394-0.394,1.033,0,1.426c0.394,0.394,1.034,0.394,1.428,0L16,13.436l8.285,8.264c0.395,0.394,1.034,0.394,1.429,0  c0.394-0.394,0.394-1.033,0-1.426L16.714,11.297z" fill="#ffffff" id="Expand_Less"/><g/><g/><g/><g/><g/><g/></svg>
+    <svg class="footer-up-svg" enable-background="new 0 0 32 32"  id="Слой_1" version="1.1" viewBox="0 0 32 32" width="64px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M16.714,11.297c-0.389-0.389-1.039-0.389-1.429,0l-8.999,8.976  c-0.394,0.394-0.394,1.033,0,1.426c0.394,0.394,1.034,0.394,1.428,0L16,13.436l8.285,8.264c0.395,0.394,1.034,0.394,1.429,0  c0.394-0.394,0.394-1.033,0-1.426L16.714,11.297z" fill="#ffffff" id="Expand_Less"/><g/><g/><g/><g/><g/><g/></svg>
   </div>
 
 </div>
@@ -615,11 +615,13 @@
         <div class="ntc-text popup-text">
           <h1 style="text-align: center">Научно-технический центр</h1>
           <p>⠀⠀⠀ Располагая Научно-техническим центром с квалифицированным персоналом исследователей - химиков (в том числе 3 кандидата наук), современным оборудованием для проведения НИР, включая специализированные лабораторные установки, ООО «НПП «Макромер» им. В.С.Лебедева» способно решать различные задачи научно-технического характера:</p>
+          <br>
           <p>• Разработку современных технологий и материалов (в т.ч. по заявкам сторонних предприятий).</p>
           <p>• Проведение НИР и ОКР с выдачей данных на проектирование.</p>
           <p>• Оказание различных научно-технических услуг (консультационные услуги, информационных услуг, разработку опытных продуктов, аналитические задачи различного характера и т.п).</p>
           <p>• При создании новых производств - обучение персонала и сопровождение производства.</p>
           <p>• Патентно - лицензионные услуги и т.п.</p>
+          <br>
           <p>⠀⠀⠀Кроме того, ООО «НПП «Макромер» им. В.С.Лебедева» может обеспечить наработку продукции (в т.ч. по заказу) в опытном или опытно - промышленном масштабе, как на собственной производственной базе, так и на промышленной площадке заказчика.</p>
         </div>
       </div>
@@ -642,7 +644,7 @@
 		<button class="popup-close">&times;</button>
     <h3 style="text-align: center">Фильм в честь тридцатилетия компании</h3>
     <div class="movie-popup-content-frame">
-      <iframe class="movie-popup-content-iframe" width="720" height="480" src="https://www.youtube.com/embed/dqfSRNoS_WM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class="movie-popup-content-iframe" id="youtube-video" width="720" height="480" src="https://www.youtube.com/embed/dqfSRNoS_WM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 	</div>
 </div>

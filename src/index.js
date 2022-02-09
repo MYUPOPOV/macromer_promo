@@ -1,7 +1,9 @@
 import slider from './modules/slider';
 import menu from './modules/menu';
-import header from './modules/header';
+import modals from './modules/modals';
+import sendForm from './modules/sendForm';
 
 slider();
-header();
 menu();
+modals();
+sendForm();

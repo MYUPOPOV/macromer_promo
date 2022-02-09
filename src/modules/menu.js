@@ -1,8 +1,9 @@
 const menu = () => {
 	const menuBtn = document.querySelector('.burger-menu');
 	const menu = document.querySelector('.menu');
-	const footerUp = document.querySelector('.footer-up');
 	const iconTextMacromer = document.querySelector('.icon-text-macromer');
+	const footerUp = document.querySelector('.footer-up');
+	const footerUpSvg = document.querySelector('.footer-up-svg>path');
 
 	const scrollUp = function (object) {
 		object.scrollIntoView({ block: 'start', behavior: 'smooth' });
@@ -42,6 +43,18 @@ const menu = () => {
 	iconTextMacromer.addEventListener('click', () => {
 		window.open('https://macromer.ru/', '_blank');
 	});
+
+	// console.log(footerUpSvg.style);
+
+	footerUp.addEventListener('mouseenter', () => {
+		footerUpSvg.style.fill = '#081b2e';
+	});
+
+	footerUp.addEventListener('mouseleave', () => {
+		footerUpSvg.style.fill = '#ffffff';
+	});
+
+	// footerUpSvg.style.fill = 'black';
 };
 
 export default menu;

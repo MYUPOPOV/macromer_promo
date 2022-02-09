@@ -41,6 +41,7 @@ body {
 	width: 80%;
 	margin: 0 auto;
 }
+
 .icon {
 	margin-left: 10px;
 	margin-top: 10px;
@@ -59,6 +60,10 @@ body {
 	cursor: pointer;
 }
 
+.icon-text-macromer:hover {
+	color: rgb(8, 27, 46, 1);
+}
+
 .main-text-30-years-right {
 	font-size: 1.2rem;
 	/* margin: 0 auto; */
@@ -72,6 +77,10 @@ body {
 	margin-top: 10px;
 	margin-right: 50px;
 	cursor: pointer;
+}
+
+.burger-menu:hover {
+	stroke: rgb(8, 27, 46, 1);
 }
 
 .main {
@@ -240,6 +249,10 @@ body {
 	cursor: pointer;
 }
 
+.about-button-btn:hover {
+	color: rgb(8, 27, 46, 1);
+}
+
 .about-link {
 	text-align: center;
 	text-decoration: none;
@@ -322,6 +335,10 @@ body {
 	cursor: pointer;
 }
 
+.feedback-button-btn:hover {
+	color: rgb(8, 27, 46, 1);
+}
+
 .footer {
 	background-color: #1b60a4;
 	color: white;
@@ -345,11 +362,19 @@ body {
 	cursor: pointer;
 }
 
+.footer-contacts:hover {
+	color: rgb(8, 27, 46, 1);
+}
+
 .footer-mainLink-a {
 	color: white;
 	text-decoration: none;
 	/* background-color: #ffffff;
 	background-color: #000000; */
+}
+
+.footer-mainLink-a:hover {
+	fill: rgb(8, 27, 46);
 }
 
 .footer-up {
@@ -394,14 +419,35 @@ body {
 .popup-close {
 	position: absolute;
 	z-index: 999999;
-	top: 0;
-	right: 1rem;
+	top: 1rem;
+	right: 2rem;
 	width: 2rem;
 	text-align: center;
 	border: none;
 	background: #ffffff;
 	font-size: 3rem;
 	color: #1b60a4;
+
+	/* position: fixed; */
+	/* top: 30px; */
+	/* left: 30px; */
+	/* font-size: 3rem; */
+	-webkit-transition: 0.2s;
+	transition: 0.2s;
+	/* -webkit-transform-origin: 50% 53%; */
+	/* transform-origin: 50% 53%; */
+	/* display: block; */
+	/* line-height: 3rem; */
+	/* text-align: center; */
+	/* width: 3rem; */
+	/* height: 3rem; */
+	/* color: #fff; */
+	/* text-decoration: none; */
+}
+
+.popup-close:hover {
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
 }
 
 .column1-popup {
