@@ -494,32 +494,32 @@
 <!-- / Описание компании -->
 
 <!-- Форма обратной связи -->
-<div class="feedback" id="feedback">
+<form class="feedback" id="feedback" name="client_form">
   <div class="feedback-capture">
     Форма обратной связи
   </div>
   <div class="feedback-first">
     <div class="feedback-first-phone">
-      <input class="feedback-first-input feedback-first-phone-input" placeholder="Телефон">
+      <input class="feedback-first-input feedback-first-phone-input" type=tel" name="client_tel" placeholder="Телефон">
     </div>
     <div class="feedback-first-email">
-      <input class="feedback-first-input feedback-first-email-input" placeholder="e-mail">     
+      <input class="feedback-first-input feedback-first-email-input" type="email" name="client_email"  placeholder="e-mail">     
     </div>
     <div class="feedback-first-name">
-      <input class="feedback-first-input feedback-first-name-input" placeholder="Имя">         
+      <input class="feedback-first-input feedback-first-name-input" type="text" name="client_name" placeholder="Имя">         
     </div>
   </div>
   <div class="feedback-second">
     <div class="feedback-second-message">
-      <input class="feedback-second-message-input" placeholder="Оставьте ваш вопрос и вам перезвонит ответственный за данную тематику специалист">    
+      <input class="feedback-second-message-input" type="text" name="client_message" placeholder="Оставьте ваш вопрос и вам перезвонит ответственный за данную тематику специалист">    
     </div>
   </div>
   <div class="feedback-button">
-      <button class="feedback-button-btn"> 
+      <button class="feedback-button-btn" type="submit"> 
         Отправить запрос
       </button>   
   </div>
-</div>
+</form>
 
 </main>
 
@@ -656,6 +656,15 @@
     <div class="movie-popup-content-frame">
       <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/192/vladimir/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Владимир</a><a href="https://yandex.ru/maps/192/vladimir/?ll=40.441770%2C56.144820&source=wizgeo&utm_medium=mapframe&utm_source=maps&z=17.41" style="color:#eee;font-size:12px;position:absolute;top:14px;">Владимир — Яндекс.Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCU5u0xJDA" width="1000" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
     </div>
+	</div>
+</div>
+
+
+<div class="popup status-form-popup">
+	<div class="popup-content status-form-popup-content">
+		<button class="popup-close">&times;</button>
+    <h2  class="status-form-popup-text-1" style="text-align: center"></h2>
+    <h4 class="status-form-popup-text-2" style="text-align: center"></р>
 	</div>
 </div>
 
