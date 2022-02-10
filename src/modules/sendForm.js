@@ -15,7 +15,7 @@ const sendForm = () => {
 				(input.name === 'client_tel' && /^[\d+() +-]+$/.test(input.value) && input.value.length > 10) ||
 				(input.name === 'client_email' && /^[a-zA-Z0-9@-_.! ]+$/.test(input.value) && input.value.length > 1) ||
 				(input.name === 'client_name' && /^[а-яА-Яa-zA-Z- ]+$/.test(input.value) && input.value.length > 1) ||
-				(input.name === 'client_message' && /^[а-яА-Яa-zA-Z0-9\-.,;:!? ]+$/.test(input.value) && input.value.length > 1)
+				(input.name === 'client_message' && /^[а-яА-Яa-zA-Z0-9\-@_"'«⠀».,;:!?~\*' ]+$/.test(input.value) && input.value.length > 1)
 			) {
 				input.classList.add('success');
 				input.classList.remove('error');
@@ -44,26 +44,26 @@ const sendForm = () => {
 		const modalText2 = document.querySelector('.status-form-popup-text-2');
 		statusFormPopup.style.display = 'flex';
 		if (status === 'checkForms') {
-			modalText1.textContent = 'Ошибка';
-			modalText2.textContent = 'Проверьте правильность заполнения форм!';
+			modalText1.textContent = 'Ошибка!';
+			modalText2.textContent = 'Проверьте корректность заполнения форм.';
 		}
 		if (status === 'success') {
 			modalText1.textContent = 'Спасибо!';
 			modalText2.textContent = 'Наш специалист с вами свяжется.';
 		}
 		if (status === 'error') {
-			modalText1.textContent = 'Ошибка';
+			modalText1.textContent = 'Ошибка!';
 			modalText2.textContent = 'Что-то пошло не так...';
 		}
 		if (status === 'preload') {
-			modalText1.textContent = 'Загрузка';
+			modalText1.textContent = 'Загрузка...';
 			modalText2.textContent = 'Ваш запрос отправляется';
 		}
 	};
 
 	/* Отправка формы */
 	const sendData = (body) => {
-		return fetch('https://jsonplaceholder.typicode.com/posts', {
+		return fetch('https://macropromo-19aa9-default-rtdb.europe-west1.firebasedatabase.app/db.json', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json',
@@ -83,11 +83,13 @@ const sendForm = () => {
 		formData.forEach((val, key) => {
 			formBody[key] = val;
 		});
+		const date = new Date();
+		formBody['client_date'] = String(date);
 
 		if (validate(formElements)) {
 			sendData(formBody)
 				.then((response) => {
-					if (response.status !== 201) {
+					if (response.status !== 200) {
 						showStatusModal('error');
 						throw new Error('Что то пошло не так');
 					}
@@ -95,28 +97,15 @@ const sendForm = () => {
 				})
 				.then((data) => {
 					appendStatusAnimation(statusBlock, 'done');
-					// setTimeout(() => {
-					// 	statusBlock.innerHTML = '';
-					// 	modal.style.display = 'none';
-					// }, 1000);
 					resetInputs(formElements);
-					// alert('Спасибо! Наш специалист с вами свяжется!');
 					showStatusModal('success');
 				})
 				.catch((error) => {
 					appendStatusAnimation(statusBlock, 'error');
-					setTimeout(() => {
-						statusBlock.innerHTML = '';
-						modal.style.display = 'none';
-					}, 2000);
+					console.log(error);
 				});
 		} else {
-			// alert('Проверьте правильность заполнения форм!');
 			appendStatusAnimation(statusBlock, 'error');
-			// setTimeout(() => {
-			// 	statusBlock.innerHTML = '';
-			// 	modal.style.display = 'none';
-			// }, 2000);
 			showStatusModal('checkForms');
 		}
 	};

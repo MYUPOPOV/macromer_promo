@@ -20,7 +20,7 @@
 }
 
 html {
-	font-size: 20px;
+	font-size: 18px;
 	font-family: Montserrat-Medium;
 	color: rgb(24, 84, 144);
 }
@@ -229,7 +229,7 @@ body {
 
 .about-buttons {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .about-button-btn {
@@ -553,6 +553,12 @@ body p {
 .status-form-popup-content {
 	display: flex;
 	flex-direction: column;
+}
+
+.client-data-popup-content {
+	display: flex;
+	flex-direction: column;
+	overflow: auto;
 }
 
 /* Можно удалить */

@@ -14,21 +14,23 @@ const textValidation = () => {
 			e.target.value = e.target.value.replace(/\s+/, ' ');
 			e.target.value = e.target.value.replace(/^[-\s]+/, '');
 			e.target.value = e.target.value.replace(/[-\s]+$/, '');
-			e.target.value = e.target.value[0].toUpperCase() + e.target.value.substr(1).toLowerCase();
+			// e.target.value = e.target.value[0].toUpperCase() + e.target.value.substr(1).toLowerCase();
 		});
 	};
 
 	/* Функция форматирования Полей ввода type=text и placeholder="Ваше сообщение"  */
 	const messageFormFormat = function () {
 		this.addEventListener('input', (e) => {
-			e.target.value = e.target.value.replace(/[^а-яА-Яa-zA-Z0-9\-@_.,;:!?~\*' ]/, '');
+			e.target.value = e.target.value.replace(/[^а-яА-Яa-zA-Z0-9\-@_"'«⠀».,;:!?~\*' ]/, '');
 		});
 		this.addEventListener('blur', (e) => {
-			e.target.value = e.target.value.replace(/[^а-яА-Яa-zA-Z0-9\-@_.,;:!?~\*' ]+/, '');
+			e.target.value = e.target.value.replace(/[^а-яА-Яa-zA-Z0-9\-@_"'«⠀».,;:!?~\*' ]+/, '');
 			e.target.value = e.target.value.replace(/\s+/, ' ');
 			e.target.value = e.target.value.replace(/^[-\s]+/, '');
 			e.target.value = e.target.value.replace(/[-\s]+$/, '');
-			e.target.value = e.target.value[0].toUpperCase() + e.target.value.substr(1).toLowerCase();
+			// if (e.target.value) {
+			// 	e.target.value = e.target.value[0].toUpperCase() + e.target.value.substr(1).toLowerCase();
+			// }
 		});
 	};
 	/* Функция форматирования Полей ввода type=email  */
@@ -47,7 +49,6 @@ const textValidation = () => {
 	textFormFormat.bind(nameInput)();
 	messageFormFormat.bind(messageInput)();
 	emailFormFormat.bind(emailInput)();
-	// [form1Phone, form2Phone, form3Phone].forEach((item) => telFormFormat.bind(item)());
 };
 
 export default textValidation;
