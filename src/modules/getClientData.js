@@ -11,7 +11,7 @@ const getClientData = () => {
 				array.forEach((item) => {
 					item.forEach((itemLocal, index) => {
 						if (index === 1) {
-							const str = `${itemLocal['client_date'].substr(0, 32)} | ${itemLocal['client_name']} | ${itemLocal['client_tel']} | ${itemLocal['client_email']} |  ${itemLocal['client_message']}`;
+							const str = `${itemLocal['client_date'].substr(0, 31)} | ${itemLocal['client_name']} | ${itemLocal['client_tel']} | ${itemLocal['client_email']} |  ${itemLocal['client_message']}`;
 							console.log(str);
 
 							const clientNote = document.createElement('h4');

@@ -32,11 +32,18 @@ const sendForm = () => {
 		return success;
 	};
 
-	/* Очистка форм после отправки */
+	/* Очистка форм после успешной отправки */
 	const resetInputs = (list) => {
 		list.forEach((input) => {
 			input.value = '';
 		});
+	};
+
+	/* Закрытие модалки через 5 секунд */
+	const closeModal = () => {
+		setTimeout(() => {
+			statusFormPopup.style.display = 'none';
+		}, 5000);
 	};
 
 	const showStatusModal = (status) => {
@@ -91,22 +98,26 @@ const sendForm = () => {
 				.then((response) => {
 					if (response.status !== 200) {
 						showStatusModal('error');
+						closeModal();
 						throw new Error('Что то пошло не так');
 					}
 					return response.json();
 				})
 				.then((data) => {
 					appendStatusAnimation(statusBlock, 'done');
+					closeModal();
 					resetInputs(formElements);
 					showStatusModal('success');
 				})
 				.catch((error) => {
 					appendStatusAnimation(statusBlock, 'error');
+					closeModal();
 					console.log(error);
 				});
 		} else {
 			appendStatusAnimation(statusBlock, 'error');
 			showStatusModal('checkForms');
+			closeModal();
 		}
 	};
 
