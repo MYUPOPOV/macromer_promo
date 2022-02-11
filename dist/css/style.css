@@ -692,6 +692,15 @@ body p {
 	.footer-up {
 		padding-right: 20px;
 	}
+	.menu {
+		width: 50%;
+		-webkit-transform: translateX(200%);
+		transform: translateX(200%);
+	}
+	.active-menu {
+		-webkit-transform: translateX(100%);
+		transform: translateX(100%);
+	}
 }
 
 /* @media (min-width: 787px) and (max-width: 1280px) */
@@ -814,8 +823,7 @@ body p {
 		font-size: 1.2rem;
 	}
 	.caption-text {
-		margin-top: 30px;
-		margin-bottom: 30px;
+		margin: 30px;
 	}
 	.slide {
 		height: 350px;
@@ -887,6 +895,15 @@ body p {
 	.close-btn:hover {
 		-webkit-transform: none;
 		transform: none;
+	}
+	.menu {
+		width: 50%;
+		-webkit-transform: translateX(180%);
+		transform: translateX(180%);
+	}
+	.active-menu {
+		-webkit-transform: translateX(90%);
+		transform: translateX(90%);
 	}
 }
 
