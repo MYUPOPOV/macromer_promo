@@ -694,6 +694,8 @@ body p {
 	}
 	.about-button-btn {
 		width: 90vw;
+		margin: 0;
+		margin-top: 5px;
 	}
 	.feedback-first {
 		display: flex;
@@ -701,9 +703,16 @@ body p {
 	}
 	.feedback-first-input {
 		width: 85vw;
+		margin-top: 10px;
+	}
+	.feedback-second-message-input {
+		margin-top: 10px;
 	}
 	.feedback-second {
 		width: 100%;
+	}
+	.footer {
+		padding: 20px;
 	}
 	.footer-mainLink {
 		display: none;
@@ -725,6 +734,9 @@ body p {
 	.header-menu {
 		width: 100%;
 		margin: 0 auto;
+	}
+	.burger-menu-div {
+		margin: 0;
 	}
 	.main {
 		width: 100%;
@@ -750,6 +762,8 @@ body p {
 	}
 	.about-button-btn {
 		width: 90vw;
+		margin: 0;
+		margin-top: 5px;
 	}
 	.feedback-first {
 		display: flex;
@@ -757,9 +771,16 @@ body p {
 	}
 	.feedback-first-input {
 		width: 85vw;
+		margin-top: 10px;
+	}
+	.feedback-second-message-input {
+		margin-top: 10px;
 	}
 	.feedback-second {
 		width: 100%;
+	}
+	.footer {
+		padding: 20px;
 	}
 	.footer-mainLink {
 		display: none;
