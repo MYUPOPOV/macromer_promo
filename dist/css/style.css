@@ -35,24 +35,38 @@ body {
 	color: white;
 }
 
-.header-menu {
-	display: flex;
+.header-wrapper {
+	/* display: flex; */
 	width: 80%;
 	margin: 0 auto;
 }
 
+.header-menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.icon-text {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+}
+
 .icon {
 	margin-left: 10px;
-	margin-top: 10px;
+	/* margin-top: 10px; */
 }
 .icon-image {
-	height: 80%;
+	/* height: 80%; */
 }
 
 .icon-text-macromer {
 	font-size: 1.2rem;
-	margin-left: 15px;
-	margin-top: 25px;
+	/* margin-left: 15px; */
+	/* margin-top: 25px; */
 	letter-spacing: -1px;
 	cursor: pointer;
 }
@@ -61,17 +75,17 @@ body {
 	color: rgb(8, 27, 46, 1);
 }
 
-.main-text-30-years-right {
-	font-size: 1.2rem;
-}
-
 .burger-menu-div {
-	margin-left: auto;
+	/* margin-left: auto; */
 }
 .burger-menu {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	align-items: center;
 	height: 65%;
-	margin-top: 10px;
-	margin-right: 50px;
+	padding-top: 10px;
+	padding-right: 10px;
 	cursor: pointer;
 }
 
@@ -91,7 +105,7 @@ body {
 	font-size: 1.7rem;
 	font-weight: bold;
 	text-align: center;
-	margin: 0 auto;
+	/* margin: 0 auto; */
 	margin-top: 70px;
 	margin-bottom: 70px;
 }
@@ -670,6 +684,13 @@ body p {
 		width: 100%;
 		margin: 0 auto;
 	}
+	.header-wrapper {
+		width: 100%;
+	}
+	.icon-text-macromer {
+		font-size: 1rem;
+		margin-left: 5px;
+	}
 	.main {
 		width: 100%;
 		margin: 0 auto;
@@ -717,6 +738,15 @@ body p {
 	.footer-mainLink {
 		display: none;
 	}
+	.map-iframe {
+		width: 550px;
+	}
+	.ntc-text {
+		font-size: 0.7rem;
+	}
+	.about-chairman-picture-img {
+		width: 200px;
+	}
 }
 
 /* @media (min-width: 577px) and (max-width: 786px) */
@@ -734,6 +764,13 @@ body p {
 	.header-menu {
 		width: 100%;
 		margin: 0 auto;
+	}
+	.header-wrapper {
+		width: 100%;
+	}
+	.icon-text-macromer {
+		font-size: 1rem;
+		margin-left: 5px;
 	}
 	.burger-menu-div {
 		margin: 0;
@@ -784,6 +821,15 @@ body p {
 	}
 	.footer-mainLink {
 		display: none;
+	}
+	.map-iframe {
+		width: 450px;
+	}
+	.ntc-text {
+		font-size: 0.6rem;
+	}
+	.about-chairman-picture-img {
+		width: 200px;
 	}
 }
 
