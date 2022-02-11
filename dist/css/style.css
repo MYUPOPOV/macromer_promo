@@ -67,6 +67,7 @@ body {
 	font-size: 1.2rem;
 	/* margin-left: 15px; */
 	/* margin-top: 25px; */
+	margin-left: 5px;
 	letter-spacing: -1px;
 	cursor: pointer;
 }
@@ -671,7 +672,7 @@ body p {
 /* @media (min-width: 787px) and (max-width: 1280px) */
 /* @media (min-width: 577px) and (max-width: 786px) */
 
-@media (min-width: 577px) and (max-width: 786px) {
+/* @media (min-width: 577px) and (max-width: 786px) {
 	html {
 		font-size: 14px;
 	}
@@ -689,7 +690,6 @@ body p {
 	}
 	.icon-text-macromer {
 		font-size: 1rem;
-		margin-left: 5px;
 	}
 	.main {
 		width: 100%;
@@ -744,15 +744,18 @@ body p {
 	.ntc-text {
 		font-size: 0.7rem;
 	}
+  founder-text {
+		font-size: 0.7rem;
+	}
 	.about-chairman-picture-img {
 		width: 200px;
 	}
-}
+} */
 
 /* @media (min-width: 577px) and (max-width: 786px) */
 /* (max-width: 576px) */
 
-@media (max-width: 576px) {
+@media (max-width: 786px) {
 	html {
 		font-size: 14px;
 	}
@@ -770,7 +773,6 @@ body p {
 	}
 	.icon-text-macromer {
 		font-size: 1rem;
-		margin-left: 5px;
 	}
 	.burger-menu-div {
 		margin: 0;
@@ -826,8 +828,19 @@ body p {
 		width: 450px;
 	}
 	.ntc-text {
+		font-size: 0.7rem;
+	}
+	founder-text {
 		font-size: 0.6rem;
 	}
+
+	/* .founder-popup-content {
+		display: flex;
+		flex-direction: column;
+	}
+	.popup-close {
+		display: flex;
+	} */
 	.about-chairman-picture-img {
 		width: 200px;
 	}
