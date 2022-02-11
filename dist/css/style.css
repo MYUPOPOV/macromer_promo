@@ -115,6 +115,7 @@ body {
 	display: flex;
 	background-position: center;
 	height: 645px;
+	background-size: 100%;
 }
 
 .row {
@@ -627,8 +628,32 @@ body p {
 		width: 100%;
 		margin: 0 auto;
 	}
+	.h2 {
+		font-size: 1.2rem;
+	}
+	.caption-text {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
 	.slide {
-		display: none;
+		height: 500px;
+		background-size: 100%;
+		/* display: none; */
+	}
+	.employee-picture {
+		transform: translateY(-10%);
+	}
+	.employee-picture-korotkova {
+		transform: translateY(-40%);
+	}
+	.product-text-body {
+		font-size: 0.9rem;
+	}
+	.employee {
+		display: flex;
+	}
+	.about {
+		margin-top: 30px;
 	}
 	.row {
 		display: flex;
@@ -785,8 +810,26 @@ body p {
 		width: 100%;
 		margin: 0 auto;
 	}
+	.h2 {
+		font-size: 1.2rem;
+	}
+	.caption-text {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
 	.slide {
+		height: 350px;
+		background-size: 100%;
+		/* display: none; */
+	}
+	.product-text-body {
+		font-size: 0.9rem;
+	}
+	.employee {
 		display: none;
+	}
+	.about {
+		margin-top: 30px;
 	}
 	.row {
 		display: flex;
@@ -818,6 +861,10 @@ body p {
 	.feedback-second {
 		width: 100%;
 	}
+	.feedback-button-btn {
+		margin-bottom: 40px;
+	}
+
 	.footer {
 		padding: 20px;
 	}
@@ -834,15 +881,12 @@ body p {
 		font-size: 0.6rem;
 	}
 
-	/* .founder-popup-content {
-		display: flex;
-		flex-direction: column;
-	}
-	.popup-close {
-		display: flex;
-	} */
 	.about-chairman-picture-img {
 		width: 200px;
+	}
+	.close-btn:hover {
+		-webkit-transform: none;
+		transform: none;
 	}
 }
 
