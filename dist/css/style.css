@@ -637,7 +637,7 @@ body p {
 	}
 	.slide {
 		height: 500px;
-		background-size: 100%;
+		background-size: auto 100%;
 		/* display: none; */
 	}
 	.employee-picture {
@@ -827,7 +827,7 @@ body p {
 	}
 	.slide {
 		height: 350px;
-		background-size: 100%;
+		background-size: auto 100%;
 		/* display: none; */
 	}
 	.product-text-body {
