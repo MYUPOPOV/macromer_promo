@@ -187,7 +187,6 @@ body {
 .about {
 	display: flex;
 	margin-top: 70px;
-	/* width: 80%; */
 	justify-content: center;
 	/* flex-wrap: wrap; */
 	flex-flow: row wrap;
@@ -959,11 +958,15 @@ body p {
 	}
 	.column1-popup {
 		margin-right: 10px;
+		margin-bottom: 0;
 	}
 	.popup-content {
 		padding: 5px;
 	}
 	p {
+		margin: 0;
+	}
+	h1 {
 		margin: 0;
 	}
 }
