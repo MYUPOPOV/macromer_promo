@@ -873,11 +873,17 @@ a:hover {
 		font-size: 0.7rem;
 	}
 	founder-text {
-		font-size: 0.5rem;
+		font-size: 0.4rem;
 	}
 
 	.about-chairman-picture-img {
 		width: 200px;
+	}
+	.about-chairman-text-name {
+		display: none;
+	}
+	.about-chairman-text-position {
+		display: none;
 	}
 	.close-btn:hover {
 		-webkit-transform: rotate(0deg);
@@ -925,9 +931,6 @@ a:hover {
 		margin-bottom: 0;
 	}
 	.popup-content {
-		/* display: flex; */
-		/* flex-direction: column; */
-		/* align-content: center; */
 		padding: 5px;
 	}
 	p {
