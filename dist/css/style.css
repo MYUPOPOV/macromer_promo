@@ -837,7 +837,6 @@ body p {
 	.slide {
 		height: 350px;
 		background-size: 150% 150%;
-		/* display: none; */
 	}
 	.product-text {
 		padding-top: 5px;
@@ -901,6 +900,9 @@ body p {
 	}
 	.footer-mainLink {
 		display: none;
+	}
+	.footer-up-svg {
+		transform: scale(0.5, 0.5);
 	}
 	.map-iframe {
 		width: 350px;
