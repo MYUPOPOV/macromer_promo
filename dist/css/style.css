@@ -806,7 +806,7 @@ body p {
 		width: 100%;
 	}
 	.icon-image {
-		transform: scale(0.6, 0.6);
+		transform: scale(0.7, 0.7);
 	}
 	.icon-text-macromer {
 		font-size: 0.9rem;
@@ -815,15 +815,8 @@ body p {
 		margin: 0;
 	}
 	.burger-menu {
-		/* display: flex;
-    flex-direction: row;
-    align-content: center;
-    align-items: center; */
-		/* height: 25%; */
-		transform: scale(0.7, 0.7);
-		/* padding-top: 20px; */
+		transform: scale(0.6, 0.6);
 		padding-right: 5px;
-		/* cursor: pointer; */
 	}
 	.main {
 		width: 100%;
@@ -961,6 +954,15 @@ body p {
 		padding: 2rem 3rem;
 		z-index: 9;
 		background-color: #ffffff;
+	}
+	.column1-popup {
+		margin-right: 10px;
+	}
+	.popup-content {
+		padding: 5px;
+	}
+	p {
+		margin: 0;
 	}
 }
 
