@@ -866,6 +866,9 @@ a:hover {
 	.map-iframe {
 		width: 350px;
 	}
+	.map-popup-content-frame {
+		margin-top: 30px;
+	}
 	.ntc-text {
 		font-size: 0.7rem;
 	}
@@ -917,10 +920,14 @@ a:hover {
 		background-color: #ffffff;
 	}
 	.column1-popup {
+		margin-top: 30px;
 		margin-right: 10px;
 		margin-bottom: 0;
 	}
 	.popup-content {
+		/* display: flex; */
+		/* flex-direction: column; */
+		/* align-content: center; */
 		padding: 5px;
 	}
 	p {
