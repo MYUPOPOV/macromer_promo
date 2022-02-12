@@ -865,9 +865,13 @@ a:hover {
 	}
 	.map-iframe {
 		width: 350px;
+		margin-top: 50px;
 	}
 	.map-popup-content-frame {
 		margin-top: 30px;
+	}
+	.movie-popup-content-iframe {
+		margin-top: 120px;
 	}
 	.ntc-text {
 		font-size: 0.7rem;
@@ -926,7 +930,7 @@ a:hover {
 		background-color: #ffffff;
 	}
 	.column1-popup {
-		margin-top: 30px;
+		margin-top: 50px;
 		margin-right: 10px;
 		margin-bottom: 0;
 	}
