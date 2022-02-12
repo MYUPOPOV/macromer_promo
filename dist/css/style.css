@@ -875,6 +875,7 @@ body p {
 		width: 90vw;
 		margin: 0;
 		margin-top: 5px;
+		font-size: 1rem;
 	}
 	.feedback-first {
 		display: flex;
@@ -911,15 +912,15 @@ body p {
 		font-size: 0.7rem;
 	}
 	founder-text {
-		font-size: 0.6rem;
+		font-size: 0.5rem;
 	}
 
 	.about-chairman-picture-img {
 		width: 200px;
 	}
 	.close-btn:hover {
-		-webkit-transform: none;
-		transform: none;
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
 	}
 	.menu {
 		width: 100%;
@@ -927,8 +928,35 @@ body p {
 		transform: translateX(100%);
 	}
 	.active-menu {
-		-webkit-transform: translateX(00%);
-		transform: translateX(00%);
+		-webkit-transform: translateX(0%);
+		transform: translateX(0%);
+	}
+	.popup {
+		display: none;
+		position: fixed;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 9;
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+
+	.popup-content {
+		position: sticky;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		height: 100%;
+		left: 0%;
+		top: 0%;
+		-webkit-transform: translateX(0px);
+		transform: translateX(0px);
+		padding: 2rem 3rem;
+		z-index: 9;
+		background-color: #ffffff;
 	}
 }
 
