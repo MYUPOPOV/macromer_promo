@@ -837,7 +837,7 @@ body p {
 	}
 	.slide {
 		height: 350px;
-		background-size: auto 100%;
+		background-size: 120%;
 		/* display: none; */
 	}
 	.product-text {
