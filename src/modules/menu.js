@@ -1,3 +1,5 @@
+import { elementScrollIntoView } from 'seamless-scroll-polyfill';
+
 const menu = () => {
 	const menuBtn = document.querySelector('.burger-menu');
 	const menu = document.querySelector('.menu');
@@ -6,7 +8,9 @@ const menu = () => {
 	const footerUpSvg = document.querySelector('.footer-up-svg>path');
 
 	const scrollUp = function (object) {
-		object.scrollIntoView({ block: 'start', behavior: 'smooth' });
+		elementScrollIntoView(object, { behavior: 'smooth', block: 'center', inline: 'center' });
+
+		// object.scrollIntoView({ block: 'start', behavior: 'smooth' });
 	};
 
 	const toggleMenu = () => {
