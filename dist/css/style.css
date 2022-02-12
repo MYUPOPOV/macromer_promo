@@ -805,8 +805,11 @@ body p {
 	.header-wrapper {
 		width: 100%;
 	}
+	.icon-image {
+		transform: scale(0.6, 0.6);
+	}
 	.icon-text-macromer {
-		font-size: 1rem;
+		font-size: 0.9rem;
 	}
 	.burger-menu-div {
 		margin: 0;
@@ -816,8 +819,9 @@ body p {
     flex-direction: row;
     align-content: center;
     align-items: center; */
-		height: 25%;
-		padding-top: 20px;
+		/* height: 25%; */
+		transform: scale(0.7, 0.7);
+		/* padding-top: 20px; */
 		padding-right: 5px;
 		/* cursor: pointer; */
 	}
