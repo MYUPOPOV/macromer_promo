@@ -871,7 +871,7 @@ a:hover {
 		transform: scale(0.5, 0.5);
 	}
 	.column1-popup {
-		margin-top: 70px;
+		margin-top: 50px;
 		margin-right: 10px;
 		margin-bottom: 0;
 	}
@@ -953,7 +953,7 @@ a:hover {
 		/* position: absolute; */
 		display: flex;
 		z-index: 999999;
-		top: 1rem;
+		top: 0rem;
 		right: 2rem;
 		width: 3rem;
 		text-align: center;
