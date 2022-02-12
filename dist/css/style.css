@@ -965,6 +965,9 @@ a:hover {
 		-webkit-transform: rotate(0deg);
 		transform: rotate(0deg);
 	}
+	.about-founder-picture-img {
+		width: 100px;
+	}
 }
 
 /* (max-width: 576px) */
