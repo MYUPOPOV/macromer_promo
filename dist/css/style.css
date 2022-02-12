@@ -863,6 +863,11 @@ a:hover {
 	.footer-up-svg {
 		transform: scale(0.5, 0.5);
 	}
+	.column1-popup {
+		margin-top: 70px;
+		margin-right: 10px;
+		margin-bottom: 0;
+	}
 	.map-iframe {
 		width: 350px;
 		margin-top: 50px;
@@ -871,15 +876,14 @@ a:hover {
 		margin-top: 30px;
 	}
 	.movie-popup-content-iframe {
-		margin-top: 120px;
+		margin-top: 30px;
 	}
 	.ntc-text {
 		font-size: 0.7rem;
 	}
 	founder-text {
-		font-size: 0.4rem;
+		font-size: 0.3rem;
 	}
-
 	.about-chairman-picture-img {
 		width: 200px;
 	}
@@ -928,11 +932,6 @@ a:hover {
 		padding: 2rem 3rem;
 		z-index: 9;
 		background-color: #ffffff;
-	}
-	.column1-popup {
-		margin-top: 50px;
-		margin-right: 10px;
-		margin-bottom: 0;
 	}
 	.popup-content {
 		padding: 5px;
