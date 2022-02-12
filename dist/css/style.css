@@ -816,10 +816,10 @@ body p {
     flex-direction: row;
     align-content: center;
     align-items: center; */
-		height: 45%;
+		height: 25%;
 		padding-top: 20px;
 		padding-right: 5px;
-		cursor: pointer;
+		/* cursor: pointer; */
 	}
 	.main {
 		width: 100%;
@@ -837,7 +837,7 @@ body p {
 	}
 	.slide {
 		height: 350px;
-		background-size: 100%;
+		background-size: auto 100%;
 		/* display: none; */
 	}
 	.product-text {
