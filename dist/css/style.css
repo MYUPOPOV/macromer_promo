@@ -967,6 +967,8 @@ a:hover {
 	}
 	.about-founder-picture-img {
 		width: 150px;
+		border: solid 5px;
+		border-color: goldenrod;
 	}
 }
 
