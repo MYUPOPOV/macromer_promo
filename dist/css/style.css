@@ -829,8 +829,10 @@ body p {
 		width: 100%;
 		margin: 0 auto;
 	}
-	.h2 {
-		font-size: 1rem;
+	h2 {
+		font-size: 1.2rem;
+		margin-top: 5px;
+		margin-bottom: 5px;
 	}
 	.caption-text {
 		margin: 30px;
