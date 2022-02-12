@@ -877,6 +877,7 @@ a:hover {
 	}
 	.map-iframe {
 		width: 350px;
+		height: 600px;
 		margin-top: 50px;
 	}
 	.map-popup-content-frame {
