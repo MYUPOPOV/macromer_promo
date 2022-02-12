@@ -795,7 +795,7 @@ a:hover {
 	}
 	.slide {
 		height: 350px;
-		background-size: 150% 150%;
+		background-size: 200% 150%;
 	}
 	.product-text {
 		padding-top: 5px;
@@ -871,9 +871,6 @@ a:hover {
 	.map-iframe {
 		width: 350px;
 		margin-top: 50px;
-	}
-	h2 {
-		/* margin-top: 70px; */
 	}
 	.map-popup-content-frame {
 		/* margin-top: 30px; */
