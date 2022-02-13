@@ -13,9 +13,9 @@ const sendForm = () => {
 		list.forEach((input) => {
 			if (
 				(input.name === 'client_tel' && /^[\d+() +-]+$/.test(input.value) && input.value.length > 10) ||
-				(input.name === 'client_email' && /^[a-zA-Z0-9@-_.! ]+$/.test(input.value) && input.value.length > 1) ||
-				(input.name === 'client_name' && /^[а-яА-Яa-zA-Z- ]+$/.test(input.value) && input.value.length > 1) ||
-				(input.name === 'client_message' && /^[а-яА-Яa-zA-Z0-9\-@_"'«⠀».,;:!?~\*' ]+$/.test(input.value) && input.value.length > 1)
+				(input.name === 'client_email' && /^[a-zA-Z0-9@-‒—_.! ]+$/.test(input.value) && input.value.length > 1) ||
+				(input.name === 'client_name' && /^[а-яА-Яa-zA-Z0-9\-‒—@_"'«⠀».,;:!?~\*' ]+$/.test(input.value) && input.value.length > 1) ||
+				(input.name === 'client_message' && /^[а-яА-Яa-zA-Z0-9\-‒—@_"'«⠀».,;:!?~\*' ]+$/.test(input.value) && input.value.length > 1)
 			) {
 				input.classList.add('success');
 				input.classList.remove('error');
