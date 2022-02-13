@@ -899,11 +899,8 @@ a:hover {
 	.about-chairman-picture-img {
 		width: 200px;
 	}
-	.about-chairman-text-name {
-		display: none;
-	}
 	.about-chairman-text-position {
-		display: none;
+		margin-bottom: 20px;
 	}
 	.close-btn:hover {
 		-webkit-transform: rotate(0deg);
