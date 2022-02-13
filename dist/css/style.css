@@ -877,7 +877,7 @@ a:hover {
 	}
 	.map-iframe {
 		width: 350px;
-		height: 800px;
+		height: 550px;
 		margin-top: 50px;
 	}
 	.map-popup-content-frame {
@@ -891,6 +891,9 @@ a:hover {
 	}
 	founder-text {
 		font-size: 0.3rem;
+	}
+	.founder-text-title {
+		font-size: 1.5rem;
 	}
 	.about-chairman-picture-img {
 		width: 200px;
