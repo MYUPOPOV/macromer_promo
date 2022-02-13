@@ -876,16 +876,13 @@ a:hover {
 		margin-right: 10px;
 		margin-bottom: 0;
 	}
+	.movie-popup-content-iframe {
+		width: 350px;
+	}
 	.map-iframe {
 		width: 350px;
 		height: 550px;
 		margin-top: 50px;
-	}
-	.map-popup-content-frame {
-		/* margin-top: 30px; */
-	}
-	.movie-popup-content-iframe {
-		/* margin-top: 30px; */
 	}
 	.ntc-text {
 		font-size: 0.7rem;
