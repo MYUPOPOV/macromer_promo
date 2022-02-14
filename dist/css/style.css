@@ -794,8 +794,8 @@ a:hover {
 		margin: 30px;
 	}
 	.slide {
-		height: 350px;
-		background-size: 200% 150%;
+		height: 320px;
+		background-size: 150% 150%;
 	}
 	.product-text {
 		padding-top: 5px;
@@ -859,7 +859,6 @@ a:hover {
 		margin-bottom: 40px;
 		width: 100%;
 	}
-
 	.footer {
 		padding: 10px;
 		padding-top: 5px;
