@@ -817,6 +817,7 @@ a:hover {
 		flex-direction: column;
 		justify-content: flex-start;
 		align-items: center;
+		width: 100vw;
 	}
 	.column1 {
 		margin-top: 20px;
@@ -843,12 +844,14 @@ a:hover {
 	}
 	.feedback-second-message-input {
 		margin-top: 10px;
+		width: 85vw;
 	}
 	.feedback-second {
 		width: 100%;
 	}
 	.feedback-button-btn {
 		margin-bottom: 40px;
+		width: 85vw;
 	}
 
 	.footer {
@@ -972,6 +975,12 @@ a:hover {
 		width: 150px;
 		border: solid 5px;
 		border-color: goldenrod;
+	}
+	.about-founder-text-name {
+		display: none;
+	}
+	.about-founder-text-position {
+		display: none;
 	}
 }
 
