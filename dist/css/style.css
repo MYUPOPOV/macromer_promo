@@ -604,6 +604,9 @@ a:hover {
 		margin-top: 50px;
 		margin-bottom: 50px;
 	}
+	.slider-container {
+		width: 100%;
+	}
 	.slide {
 		height: 500px;
 		background-size: auto 100%;
@@ -795,6 +798,9 @@ a:hover {
 	}
 	.caption-text {
 		margin: 30px;
+	}
+	.slider-container {
+		width: 100%;
 	}
 	.slide {
 		height: 320px;
